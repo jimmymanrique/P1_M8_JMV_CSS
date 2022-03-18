@@ -1,6 +1,9 @@
 
 body {
+  background-color: black;margin: 0;padding: 0;font-family: 'Ubuntu', sans-serif;
   background-color: black;
+  color:white;
+  font-size: 22px
 }
 
 h1 {
@@ -14,17 +17,55 @@ p {
   color:white;
 }
 
-img {
-  height: 250px;
-width: 25%;
-background-color: powderblue;
-}
 
 #container{
   display:grid;
-  border: 1px solid red;
-  grid-template-columns:1rf 2rf 1rf;
-  grid-auto-rows: calc(33.33vh - 10px)calc(33.33 - 10px)calc(33.33 - 10px);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-template-columns: 6fr 11fr 1fr 11fr 6fr;
+  grid-template-rows: 10vh 7.5vh 25vh 5vh 35vh 7.5vh 10vh;
+}
+
+#bad_bunny{
+width:200;
+height: 228;
+}
+
+img{
+  height: 50%;
+  width: 50%;
+}
+
+#container .celda1{
+  grid-column: 1/6;
+  grid-row: 1/2;
+}
+
+#container .celda2{
+  grid-column: 1/6;
+  grid-row: 2/3;
+}
+
+
+#container .imagen1{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+
+
+#container .imagen2{
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+
+#container .imagen3{
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+
+
+#container .imagen4{
+
+  grid-column: 4/5;
+  grid-row: 5/6;
 }
