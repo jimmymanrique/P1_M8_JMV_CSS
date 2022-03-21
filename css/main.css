@@ -20,13 +20,8 @@ p {
 
 #container{
   display:grid;
-  grid-template-columns: 6fr 11fr 1fr 11fr 6fr;
-  grid-template-rows: 10vh 7.5vh 25vh 5vh 35vh 7.5vh 10vh;
-}
-
-#bad_bunny{
-width:200;
-height: 228;
+  grid-template-columns: 30fr 20fr 5fr 11fr 6fr;
+  grid-template-rows: 10vh 20vh 30vh 5vh 35vh 7.5vh 10vh;
 }
 
 img{
@@ -44,7 +39,15 @@ img{
   grid-row: 2/3;
 }
 
+#container .celda3{
+grid-column:
+grid-row:
+}
 
+#container .celda4{
+  grid-column:
+
+}
 #container .imagen1{
   grid-column: 2/3;
   grid-row: 3/4;
